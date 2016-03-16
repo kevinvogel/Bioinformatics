@@ -16,7 +16,6 @@ def directory_files():
     """
     for root, dirs, files in os.walk("."):
         path = root.split('/')
-        print((len(path) - 1) * '\t', os.path.basename(root))
         for file in files:
             print(len(path) * '\t', file)
 
