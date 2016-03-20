@@ -1,5 +1,5 @@
-# Recursively find all FASTQ files in a directory and report each file name and the percent of sequences in
-# that file that are greater than 30 nucleotides long.
+"""Recursively find all FASTQ files in a directory and report each file name and the percent of 
+sequences in that file that are greater than 30 nucleotides long."""
 
 # Filename: /Users/kevinvogel/PycharmProjects/fastq_project/fastq.py
 
