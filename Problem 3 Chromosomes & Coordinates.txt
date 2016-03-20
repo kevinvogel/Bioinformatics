@@ -1,0 +1,11 @@
+After attempting to answer problem three of the coding task assignment, I have determined that my python programming skills are not mature enough yet to answer this question correctly. That being said, I have a partial algorithmic plan of how I might solve this problem in the future once I have advanced my programming skills.
+
+Since the program will be performing annotations millions of times, I’m faced with the question of saving time or memory when running my program. I want to use Big-O Notation and think it would be very beneficial in regards to the algorithm’s efficiency or execution time. Going through the list of chromosomes and their coordinates line by line would be computationally expensive. 
+
+This is what I have planned out in regards to the algorithm I want to implement:
+
+1. Parse the chromosome/coordinates .txt file and store data in an array.
+2. Parse the gh19 annotations .gtf file and store data in an array.
+	- Could store in the annotations in a dictionary to speed up the program, but that would also eat up memory.
+3. Remove any duplicates from the arrays created by the use of both files.
+4. From here, my python coding ability isn’t to the point where I can solve the rest of the problem. I obviously want to find a way to compare the files and print out the annotated file of gene name that the input position overlaps.
