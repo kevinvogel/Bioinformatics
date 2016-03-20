@@ -1,5 +1,5 @@
-# Given a FASTA file with DNA sequences, find 10 most frequent sequences and return the sequence and their counts
-# in the file.
+"""Given a FASTA file with DNA sequences, find 10 most frequent sequences and return the sequence
+and their counts in the file."""
 
 # Filename: /Users/kevinvogel/PycharmProjects/fasta_project/freq_of_seq.py
 
