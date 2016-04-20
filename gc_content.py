@@ -13,12 +13,6 @@ def gc_function():
     """
     # Randomly inserted DNA sequence.
     seq = 'AAGCTCCTAATCACCCTCATAGCCTATAGTGATTCTCGACCTCGGTCAACTCTGCACGGCTTACAGGTAGGCCAGTTGACTAACTGTGGAGAATA'
-    # Counts the 'G' within the DNA sequence.
-    seq.count("G")
-    # Counts the 'C' within the DNA sequence.
-    seq.count("C")
-    # Length of the DNA sequence.
-    len(seq)
     # Calculates the GC content of the DNA sequence.
     gc_content = ((seq.count('G') + seq.count('C')) / len(seq)) * 100
     # Prints the percentage to the console.
