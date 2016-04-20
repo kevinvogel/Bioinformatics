@@ -22,7 +22,7 @@ def gc_function():
     # Calculates the GC content of the DNA sequence.
     gc_content = ((seq.count('G') + seq.count('C')) / len(seq)) * 100
     # Prints the percentage to the console.
-    return 'The GC percentage of this sequence is: ' + str(round(gc_content, 2)) + '%.'
+    print('The GC percentage of this sequence is: ' + str(round(gc_content, 2)) + '%.')
 
 
 if __name__ == '__main__':
