@@ -6,18 +6,19 @@ __author__ = 'Kevin Vogel'
 __email__ = 'kevinvogel@mac.com'
 
 
-def gc_function():
+def gc_function(seq):
     """
     This function will calculate the GC% content of your desired sequence.
     :return: GC percentage to the hundredth decimal place
     """
-    # Randomly inserted DNA sequence.
-    seq = 'AAGCTCCTAATCACCCTCATAGCCTATAGTGATTCTCGACCTCGGTCAACTCTGCACGGCTTACAGGTAGGCCAGTTGACTAACTGTGGAGAATA'
     # Calculates the GC content of the DNA sequence.
     gc_content = ((seq.count('G') + seq.count('C')) / len(seq)) * 100
-    # Prints the percentage to the console.
-    print('The GC percentage of this sequence is: ' + str(round(gc_content, 2)) + '%.')
-
+    return gc_content
 
 if __name__ == '__main__':
-    print(gc_function())
+    gc_pct = (gc_function(seq = 'CGTAGATGATCGATGCATG'))
+    print('The GC percentage of this sequence is: ' + str(round(gc_pct, 2)) + '%.')
+    
+    
+    out_line = 
+    {}%.format(round(gc_pct, 2))
