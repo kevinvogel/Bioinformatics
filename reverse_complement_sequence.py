@@ -9,6 +9,7 @@ __email__ = 'kevinvogel@mac.com'
 def reverse_complement(seq):
     """
     This function will display the reverse complement of a DNA sequence.
+    :param seq:
     :return: reverse complement of the DNA sequence
     """
     # Dictionary to store the base pairs.
@@ -18,4 +19,6 @@ def reverse_complement(seq):
 
 
 if __name__ == '__main__':
-    print(reverse_complement(seq))
+    reverse_seq = (reverse_complement(seq='CGTAGATGATCGATGCATG'))
+    print(reverse_seq)
+    
