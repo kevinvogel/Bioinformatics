@@ -19,8 +19,8 @@ def ticdb_parser(file_name):
             order = [3, 0, 1]
             order_list = [row[i] for i in order]
             if (len(order_list[0])) >= 25:
-                return order_list
-
+                print order_list
+        return file_name
 
 if __name__ == '__main__':
     ticdb_parser("TICdb_v3.3.curated.txt")
